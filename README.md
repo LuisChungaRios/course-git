@@ -29,19 +29,31 @@ Editor de codigo : `git config --global core.editor your_editor_code`
 ### Comandos 
 Despues de configurar git, podemos empezar a trabajar.
 Iniciar git : `git init` 
+
 Estado del area de trabajo : `git status`
+
 Agregar un archivo a la zona de preparacion: `git add nombre_archivo`
+
 Agregar todos los arhivos a la zona de preparación: `git add .`
+
 Agregar todos los archivos que estamos siguiendo: `git add -A`
+
 Sacar el archivo de la zona de preparación: `git reset HEAD name_file`
+
 Confirmar cambios en git: `git commit -m "message_your_description of commit"`
+
 Ver el historial de los commit: `git log`
+
 Ver el historial de los commit en una linea: `git log --oneline`
+
 Otros comandos para ver el historia:
 `git log --oneline --decorate --all --graph`
+
 Mostrar las diferencias de un arhivo en zona de preparacion con el ultimo commit: 
 `git diff`
-Mostrar la diferencia entre un mismo archivo que ya preparamos, y lo que no se ah preparado 
-`git diff --staged`
+
+Mostrar la diferencia entre un mismo archivo que ya preparamos, y lo que no se ah preparado  `git diff --staged`
+
 Cambiar la descripcion del ultimo commit: `git commit --amend`
+
 Ignorar los archivos en git: Creamos un archivo con el nombre `.gitignore` dentro de ese archivo colocamos el nombre de los archivos o carpetas.
